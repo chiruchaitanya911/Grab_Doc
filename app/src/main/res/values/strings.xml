@@ -1,0 +1,19 @@
+<resources>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!--todo start-->
+    <string name="welcome_back">Welcome Back!</string>
+    <string name="login">Login</string>
+    <string name="resend_otp">Resend OTP</string>
+    <string name="verify_proceed">Verify &amp; Proceed</string>
+    <string name="your_phone_number">Your Phone Number</string>
+    <string name="verification">Verification</string>
+    <string name="dont_receive_the_otp">Don\'t receive the OTP?</string>
+    <string name="enter_the_otp_code">Enter the OTP code from the \nphone we just sent you.</string>
+
+
+    <!--todo end-->
+</resources>

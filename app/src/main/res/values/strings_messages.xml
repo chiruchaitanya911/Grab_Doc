@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Common messages  -->
+    <string name="app_name">Grab Doc</string>
+    <string name="internet_not_connected">Your phone is not connected to the Internet</string>
+
+
+</resources>

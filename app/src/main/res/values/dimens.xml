@@ -1,0 +1,118 @@
+<resources>
+    <!--<dimen name="fab_margin">16dp</dimen>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="screen_title">@dimen/_17sp</dimen>
+    <dimen name="button_width">@dimen/_180dp</dimen>
+    <dimen name="button_text_size">@dimen/_16dp</dimen>
+    <dimen name="toggle_button_width">@dimen/_51dp</dimen>
+    <dimen name="toggle_button_height">@dimen/_31dp</dimen>
+    <dimen name="sub_title_text_size">@dimen/_16sp</dimen>
+    <dimen name="primary_button_height">@dimen/_34dp</dimen>
+    <dimen name="primary_button_text_size">@dimen/txt_paragraph_medium</dimen>
+
+    <dimen name="otp_view_item_size">48dp</dimen>
+    <dimen name="otp_view_item_radius">5dp</dimen>
+    <dimen name="otp_view_item_spacing">5dp</dimen>
+    <dimen name="otp_view_item_line_width">2dp</dimen>
+    <dimen name="otp_view_cursor_width">2dp</dimen>-->
+
+    <!--New UI changes-->
+   <!-- <dimen name="txt_heading_size_h7">16sp</dimen>
+    <dimen name="txt_heading_size_h6">18sp</dimen>
+    <dimen name="txt_heading_size_h5">20sp</dimen>
+    <dimen name="txt_heading_size_h4">22sp</dimen>
+    <dimen name="txt_heading_size_h3">26sp</dimen>
+    <dimen name="txt_heading_size_h2">32sp</dimen>
+    <dimen name="txt_heading_size_h1">40sp</dimen>
+
+    <dimen name="txt_paragraph_large">16sp</dimen>
+    <dimen name="txt_paragraph_medium">14sp</dimen>
+    <dimen name="txt_paragraph_regular">13sp</dimen>
+    <dimen name="txt_paragraph_small">12sp</dimen>
+    <dimen name="txt_paragraph_tiny">11sp</dimen>
+-->
+    <dimen name="txt_heading_size_h7">@dimen/_13sp</dimen><!--Figma 16sp-->
+    <dimen name="txt_heading_size_h6">@dimen/_15sp</dimen><!--Figma 18sp-->
+    <dimen name="txt_heading_size_h5">@dimen/_17sp</dimen><!--Figma 20sp-->
+    <dimen name="txt_heading_size_h4">@dimen/_19sp</dimen><!--Figma 22sp-->
+    <dimen name="txt_heading_size_h3">@dimen/_21sp</dimen><!--Figma 26sp-->
+    <dimen name="txt_heading_size_h2">@dimen/_25sp</dimen><!--Figma 32sp-->
+    <dimen name="txt_heading_size_h1">@dimen/_31sp</dimen><!--Figma 40sp-->
+    <dimen name="txt_paragraph_large">@dimen/_13sp</dimen><!--Figma 16sp-->
+    <dimen name="txt_paragraph_medium">@dimen/_12sp</dimen><!--Figma 14sp-->
+    <dimen name="txt_paragraph_regular">@dimen/_11sp</dimen><!--Figma 13sp-->
+    <dimen name="txt_paragraph_small">@dimen/_10sp</dimen><!--Figma 12sp-->
+    <dimen name="txt_paragraph_tiny">@dimen/_9sp</dimen><!--Figma 11sp-->
+    <dimen name="password_eye_icon_width">@dimen/_20dp</dimen>
+    <dimen name="password_eye_icon_height">@dimen/_20dp</dimen>
+
+    <!--New Design v2 Dimen values-->
+    <dimen name="title">@dimen/_18sp</dimen> <!--Figma 20-->
+    <dimen name="title_section">@dimen/_14sp</dimen> <!--Figma 17-->
+    <dimen name="lable">@dimen/_13sp</dimen> <!--Figma 17-->
+    <dimen name="lable_button">@dimen/_13sp</dimen> <!--Figma 16-->
+    <dimen name="lable_link">@dimen/_14sp</dimen> <!--Figma 17-->
+    <dimen name="lable_small">@dimen/_12sp</dimen> <!--Figma 14-->
+    <dimen name="value">@dimen/_17sp</dimen> <!--Figma 20-->
+    <dimen name="value_user_set">@dimen/_17sp</dimen> <!--Figma 20-->
+    <dimen name="value_description">@dimen/_11sp</dimen> <!--Figma 16-->
+    <dimen name="value_description_small">@dimen/_12sp</dimen> <!--Figma 14-->
+    <dimen name="nav_link">@dimen/_10sp</dimen> <!--Figma 12-->
+    <dimen name="value_lrg">@dimen/_19sp</dimen> <!--Figma 22-->
+    <dimen name="text_input_field">@dimen/_15dp</dimen><!--Figma 17-->
+    <!--Page Margin left and right-->
+    <dimen name="page_margin_left">@dimen/_20dp</dimen> <!--Figma 18-->
+    <dimen name="page_margin_right">@dimen/_20dp</dimen> <!--Figma 18-->
+    <!--Toggle button-->
+    <dimen name="toggle_switch_button_width">@dimen/_40dp</dimen>
+    <dimen name="toggle_switch_button_height">@dimen/_25dp</dimen>
+    <!--Button margins & Paddings-->
+
+    <!--New Metasafe Font styles-->
+    <dimen name="text_main_body_16">@dimen/_14sp</dimen> <!--Figma 16-->
+    <dimen name="button_text">@dimen/_16sp</dimen> <!--Figma 18-->
+    <dimen name="app_version">@dimen/_11sp</dimen> <!--Figma 13-->
+    <dimen name="text_headline">@dimen/_26sp</dimen> <!--Figma 28-->
+    <dimen name="text_sub_headline">@dimen/_22sp</dimen> <!--Figma 24-->
+    <dimen name="text_head_line_3">@dimen/_20sp</dimen> <!--Figma 22-->
+    <dimen name="section_header">@dimen/_18sp</dimen> <!--Figma 20-->
+    <dimen name="text_steps">@dimen/_9sp</dimen> <!--Figma 9-->
+    <dimen name="text_steps_value">@dimen/_10sp</dimen> <!--Figma 12-->
+    <dimen name="text_pass_phrase">@dimen/_13sp</dimen> <!--Figma 15-->
+    <dimen name="text_input_field_name">@dimen/_14sp</dimen> <!--Figma 16-->
+    <dimen name="text_input">@dimen/_13sp</dimen> <!--Figma 15-->
+    <dimen name="text_input_hint">@dimen/_11sp</dimen> <!--Figma 13-->
+    <dimen name="text_small_print">@dimen/_11sp</dimen> <!--Figma 13-->
+
+    <dimen name="button_left_padding">@dimen/_16dp</dimen>
+    <dimen name="button_right_padding">@dimen/_16dp</dimen>
+    <dimen name="button_left_margin">@dimen/_16dp</dimen>
+    <dimen name="button_right_margin">@dimen/_16dp</dimen>
+    <dimen name="page_bottom_margin">@dimen/_24dp</dimen>
+    <dimen name="action_bar_size">@dimen/_50dp</dimen><!--Figma 58-->
+    <dimen name="backbutton_width">@dimen/_26dp</dimen>
+    <dimen name="backbutton_height">@dimen/_26dp</dimen>
+    <!--Toggle_button-->
+    <dimen name="toggle_switch_button_width_new">@dimen/_27dp</dimen>
+    <dimen name="toggle_switch_button_height_new">@dimen/_20dp</dimen>
+    <dimen name="inner_logo_height">@dimen/_11dp</dimen>
+    
+    <!--todo start-->
+
+    <dimen name="page_left_margin">@dimen/_16sp</dimen> <!--Figma 24-->
+    <dimen name="page_right_margin">@dimen/_16sp</dimen> <!--Figma 24-->
+    <dimen name="button_height">@dimen/_40dp</dimen> <!--Figma 48-->
+
+    <dimen name="text_heading">@dimen/_18dp</dimen> <!--figma 20-->
+    <dimen name="edittext_text_size">@dimen/_14dp</dimen> <!--figma 16-->
+    <dimen name="text_main_heading">@dimen/_23dp</dimen> <!--figma 25-->
+    <dimen name="text_main_headline">@dimen/_14dp</dimen> <!--figma 16-->
+    <dimen name="text_sub_head_line">@dimen/_12dp</dimen> <!--figma 12-->
+    <dimen name="text_sub_sub_head_line">@dimen/_10dp</dimen> <!--figma 10-->
+
+
+    <!--todo end-->
+
+</resources>

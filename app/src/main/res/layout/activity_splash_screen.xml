@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SplashScreenActivity"
+    android:orientation="vertical"
+    android:background="@color/dark_blue_color">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg_lines">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/logo"
+                android:layout_width="@dimen/_180dp"
+                android:layout_height="@dimen/_205dp"
+                android:src="@drawable/logo"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="-100dp"
+                android:layout_marginTop="50dp"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/logo"
+                android:src="@drawable/docnew"
+                android:layout_marginBottom="-260dp"
+                android:layout_marginTop="-150dp"/>
+
+        </RelativeLayout>
+
+    </FrameLayout>
+
+</LinearLayout>

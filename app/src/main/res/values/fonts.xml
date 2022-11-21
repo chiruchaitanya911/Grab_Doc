@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="font_avenir_next_bold">roboto_bold.ttf</string>
+    <string name="font_avenir_next_medium">roboto_medium.ttf</string>
+    <string name="font_avenir_next_demi_bold">roboto_bold.ttf</string>
+    <string name="font_avenir_next_regular">roboto_regular.ttf</string>
+    <string name="font_avenir_next_lite">roboto_lite.ttf</string>
+    <string name="font_avenir_next_condensed_regular">roboto_regular.ttf</string>
+    <string name="font_idlewild_medium">roboto_medium.ttf</string>
+    <string name="font_idlewild_medium_dashboard">roboto_medium.ttf</string>
+    <string name="font_bold">roboto_bold.ttf</string> // using only for password
+
+    <!--todo start-->
+    <string name="font_poppins_bold">poppins_bold.ttf</string>
+    <string name="font_poppins_light">poppins_light.ttf</string>
+    <string name="font_poppins_medium">poppins_medium.ttf</string>
+    <string name="font_poppins_regular">poppins_regular.ttf</string>
+    <string name="font_poppins_semi_bold">poppins_semi_bold.ttf</string>
+
+    <!--todo end-->
+
+</resources>

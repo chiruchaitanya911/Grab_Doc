@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".fragments.signinfragments.SigninFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/poppins_semi_bold_header_main_25px"
+                    android:layout_width="match_parent"
+                    android:layout_marginStart="@dimen/page_margin_left"
+                    android:layout_marginTop="@dimen/_40dp"
+                    android:layout_marginEnd="@dimen/page_margin_right"
+                    android:gravity="center"
+                    android:text="@string/verification"
+                    android:textColor="@color/dark_blue_color" />
+
+                <ImageView
+                    android:layout_width="@dimen/_250dp"
+                    android:layout_height="@dimen/_230dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="@dimen/_20dp"
+                    android:src="@drawable/sheild" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/page_margin_left"
+                    android:layout_marginEnd="@dimen/page_margin_right"
+                    android:orientation="vertical">
+
+                    <TextView
+                        style="@style/poppins_semi_regular_header_20px"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="@dimen/_30dp"
+                        android:gravity="center"
+                        android:text="@string/enter_the_otp_code"
+                        android:textColor="@color/ash_color" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_30dp"
+                        android:orientation="horizontal"
+                        android:weightSum="4">
+
+                        <EditText
+                            android:id="@+id/et_first_no"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="@dimen/_5dp"
+                            android:layout_marginEnd="@dimen/_5dp"
+                            android:layout_weight="1"
+                            android:inputType="number"
+                            android:textColor="@color/black"
+                            android:textStyle="bold" />
+
+                        <EditText
+                            android:id="@+id/et_second_no"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginEnd="@dimen/_5dp"
+                            android:layout_weight="1"
+                            android:inputType="number"
+                            android:textColor="@color/black"
+                            android:textStyle="bold" />
+
+                        <EditText
+                            android:id="@+id/et_third_no"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginEnd="@dimen/_5dp"
+                            android:layout_weight="1"
+                            android:inputType="number"
+                            android:textColor="@color/black"
+                            android:textStyle="bold" />
+
+                        <EditText
+                            android:id="@+id/et_four_no"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginEnd="@dimen/_5dp"
+                            android:layout_weight="1"
+                            android:inputType="number"
+                            android:textColor="@color/black"
+                            android:textStyle="bold" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_15dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            style="@style/poppins_regular_16px"
+                            android:text="@string/dont_receive_the_otp"
+                            android:textColor="@color/ash_color" />
+
+                        <TextView
+                            style="@style/text_main_body_16_bold"
+                            android:layout_marginStart="@dimen/_5dp"
+                            android:text="@string/resend_otp"
+                            android:textColor="@color/dark_blue_color" />
+
+                    </LinearLayout>
+
+                    <Button
+                        android:id="@+id/btn_verify_proceed"
+                        style="@style/button_poppins_semi_bold_header_20px"
+                        android:layout_width="match_parent"
+                        android:layout_marginTop="@dimen/_35dp"
+                        android:background="@drawable/background_edittext_border"
+                        android:minHeight="@dimen/button_height"
+                        android:text="@string/verify_proceed"
+                        android:textAllCaps="false"
+                        android:textColor="@color/white" />
+
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_90dp"
+                    android:src="@drawable/wave" />
+
+            </LinearLayout>
+
+        </FrameLayout>
+
+    </ScrollView>
+
+</LinearLayout>

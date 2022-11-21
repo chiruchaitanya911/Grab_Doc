@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <attr name="theme_textColor" format="color" />
+    <attr name="theme_backgroundTopBarColor" format="color" />
+    <attr name="theme_backArrowColor" format="color" />
+
+    <declare-styleable name="CustomTextView">
+        <attr name="typeface" format="string" />
+        <attr name="hinttypeface" format="string" />
+    </declare-styleable>
+    
+    <!--todo start -->
+    <attr name="textSize" format="dimension"/>
+
+    
+    <!--todo end-->
+
+</resources>

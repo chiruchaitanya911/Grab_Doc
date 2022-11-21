@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.signinfragments.LandingFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/frmTitle"
+        android:background="@color/light_green"
+        android:scrollbars="none">
+
+        <ImageView
+            android:id="@+id/imgSigninLogo"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/landing_img"
+            android:scaleType="fitCenter" />
+
+
+    </ScrollView>
+</LinearLayout>
